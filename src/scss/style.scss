@@ -1,0 +1,135 @@
+$p1: #2e112d;
+$p2: #540030;
+$p3: #4A0D32;
+$p4: #820434;
+$p5: #FF6C40;
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    nav {
+        .triangleCont {
+            height: 500px;
+            width: 500px;
+            position: fixed;
+            top: -280px;
+            right: -280px;
+            #btnNav {
+                height: 50px;
+                width: 50px;
+                background: blue;
+                position: absolute;
+                left: 155px;
+                bottom: 155px;
+                z-index: 2;
+                border: none;
+            }
+            .navOpt {
+                color: white;
+                position: absolute;
+                left: 100px;
+                bottom: 0px;
+                z-index: 2;
+                height: 200px;
+                ul{
+                    list-style: none;
+                    transform: rotate(-45deg);
+                    margin: 0px;
+                    padding: 3px;
+                    position: relative;
+                    li{
+                        border-bottom: 1px solid $p5;
+                        width: 250px;
+                        height: 30px;
+                        font-size: 20px;
+                        transform: rotate(45deg);
+                        margin-top: 20px;
+                        position: absolute
+                        &:hover{
+                            cursor: pointer;
+                            border-bottom: 1px solid red;
+                        }
+                    }
+                }
+            }
+            .triangleBg {
+                transform: rotate(45deg);
+                background: $p4;
+                height: 500px;
+                width: 500px;
+                z-index: 1;
+            }
+        }
+    }
+    .hTop {
+        background: url(../img/bgTop.jpg) no-repeat center;
+        background-size: cover;
+        height: 720px;
+        width: 100%;
+    }
+}
+
+main {
+    background: #2E112D;
+    height: 1800px;
+    .infoCont {
+        height: 500px;
+        .meCont {
+            height: 400px;
+            width: 300px;
+            border-radius: 10px;
+            border-bottom-left-radius: 40px;
+            background: $p2;
+            padding: 5px;
+            margin: auto;
+            .cardTop {
+                height: 40%;
+                width: 100%;
+                background: url(../img/bgAvatar.jpg) no-repeat;
+                background-size: cover;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                position: relative;
+                .avatar {
+                    height: 120px;
+                    width: 120px;
+                    background: red;
+                    border-radius: 50%;
+                    position: absolute;
+                    bottom: -50px;
+                    left: 20px;
+                    border: 2px solid $p4;
+                }
+            }
+            .cardBot {
+                background: $p4;
+                height: 60%;
+                width: 100%;
+                border-bottom-left-radius: 40px;
+                border-bottom-right-radius: 10px;
+                border-top-left-radius: 80%;
+                border-top: 3px solid $p5;
+                box-sizing: border-box;
+            }
+        }
+        .moreInfoCont {}
+    }
+    .rotCont {
+        height: 400px;
+        width: 120%;
+        margin-left: -50px;
+        .rotBg {
+            background: #fff;
+            height: 400px;
+            width: 120%;
+            margin-left: -50px;
+            transform: rotate(-5deg);
+            box-shadow: 0 0 30px $p5;
+        }
+    }
+}
