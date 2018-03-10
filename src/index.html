@@ -1,56 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Por</title>
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <nav>
             <section class="triangleCont">
-                <div id="btnNav">
-                    Nav
+                <div class="btnNav">
+                    <i id="hamI" class="fas fa-bars"></i>
                 </div>
-                <div class="navOpt">
-                    <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Projects</li>
-                        <li>Contact</li>
-                    </ul>
-                </div>
-                <div class="triangleBg"></div>    
-            </section>    
+                <div class="triangleBg"></div>
+            </section>
+            <section class="navOpt">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </section>
         </nav>
         <article class="hTop">
-            
-        </article>    
+
+        </article>
     </header>
     <main>
-        <article class="infoCont">
-            <section class="meCont">
-                <div class="cardTop">
-                    <div class="avatar">
-                        
-                    </div>    
-                </div>
-                <div class="cardBot">
-                    
-                </div>
-            </section>
-            <section class="moreInfoCont"></section>
+        <article class="wrapper">
+            <article class="infoCont">
+                <h1 class="artiHeader">About Me</h1>
+                <section class="meCont">
+                    <div class="meBG">
+                        <div class="meTop">
+                            <div class="meAvatar"></div>
+                            <div class="meBtn1">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="meBtn2">
+                                <i class="fas fa-user-plus"></i>
+                            </div>
+                        </div>
+                        <div class="meBot">
+                            <h2>Adrian Zając</h2>
+                            <ul>
+                                <li>
+                                    <p>Motivated to learn new things</p>    
+                                </li>
+                                <li>
+                                    <p>Passion for programming</p>   
+                                </li>
+                                <li>
+                                    <p>Everyday practice</p>   
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="moreInfoCont"></section>
+            </article>
+            <article class="rotCont">
+                <section class="cardsCont">
+                    <div class="singleCard">
+                        <div class="cardTop">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="cardBot">
+                            <div class="infoBot">
+                                <h3><span class="strongH">Wrocław</span> - Krzyki</h3>
+                                <h3>Remote possible</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="singleCard">
+                        <div class="cardTop">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="cardBot">
+                            <div class="infoBot">
+                                <h3>1 Full year of <span class="strongH">experience</span></h3>
+                                <h3>Half of it was comercial in software company</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="singleCard">
+                        <div class="cardTop">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="cardBot">
+                            <div class="infoBot">
+                                <h3><span class="strongH">Fluent</span> English</h3>
+                                <h3>Almost full year spent in UK Edinburgh</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="rBGCont">
+                    <div class="rotateBG"></div>
+                </section>
+            </article>
         </article>
-        <article class="rotCont">
-            <div class="rotBg"></div>    
-        </article>
-    </main>   
-    <script src="js/main.js"></script>     
+    </main>
+    <script src="js/main.js"></script>
 </body>
+
 </html>

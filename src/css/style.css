@@ -5,114 +5,245 @@ body {
   font-family: 'Lato', sans-serif; }
 
 header nav .triangleCont {
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
   position: fixed;
-  top: -280px;
-  right: -280px; }
-  header nav .triangleCont #btnNav {
+  top: -200px;
+  right: -200px;
+  z-index: 3; }
+  header nav .triangleCont .btnNav {
     height: 50px;
     width: 50px;
-    background: blue;
+    background: #4988ff;
+    border-radius: 50%;
     position: absolute;
-    left: 155px;
-    bottom: 155px;
+    left: 40px;
+    bottom: 40px;
     z-index: 2;
-    border: none; }
-  header nav .triangleCont .navOpt {
-    color: white;
-    position: absolute;
-    left: 100px;
-    bottom: 0px;
-    z-index: 2;
-    height: 200px; }
-    header nav .triangleCont .navOpt ul {
-      list-style: none;
-      -webkit-transform: rotate(-45deg);
-          -ms-transform: rotate(-45deg);
-              transform: rotate(-45deg);
-      margin: 0px;
-      padding: 3px;
-      position: relative; }
-      header nav .triangleCont .navOpt ul li {
-        border-bottom: 1px solid #FF6C40;
-        width: 250px;
-        height: 30px;
-        font-size: 20px;
-        -webkit-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-                transform: rotate(45deg);
-        margin-top: 20px;
-        position: absolute header nav .triangleCont .navOpt ul li; }
-        header nav .triangleCont .navOpt ul li :hover {
-          cursor: pointer;
-          border-bottom: 1px solid red; }
+    border: none;
+    padding: 9px 8px 0px 11px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transition: all .1s;
+    -o-transition: all .1s;
+    transition: all .1s; }
+    header nav .triangleCont .btnNav:hover {
+      cursor: pointer;
+      background: #3077ff; }
+    header nav .triangleCont .btnNav:hover #hamI {
+      color: #7ea2e6; }
+    header nav .triangleCont .btnNav #hamI {
+      color: #5353f7;
+      font-size: 32px;
+      -webkit-transition: all .1s;
+      -o-transition: all .1s;
+      transition: all .1s; }
   header nav .triangleCont .triangleBg {
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
-    background: #820434;
-    height: 500px;
-    width: 500px;
-    z-index: 1; }
+    background: #7ea2e6;
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    -webkit-transition: all .0s;
+    -o-transition: all .0s;
+    transition: all .0s; }
+
+header nav .navOpt {
+  color: white;
+  position: fixed;
+  right: -200px;
+  top: 0px;
+  width: 200px;
+  z-index: 2;
+  height: 100vh;
+  background: #1A71BB;
+  border-left: 1px solid #4988ff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  header nav .navOpt ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px; }
+    header nav .navOpt ul li {
+      text-transform: uppercase;
+      height: 50px;
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+      background: #7ea2e6;
+      line-height: 50px;
+      border-top: 1px solid #4988ff;
+      -webkit-transition: all .1s;
+      -o-transition: all .1s;
+      transition: all .1s; }
+      header nav .navOpt ul li:hover {
+        cursor: pointer;
+        background: #6993e2; }
+    header nav .navOpt ul li:first-child {
+      margin-top: 150px; }
+    header nav .navOpt ul li:last-child {
+      border-bottom: 1px solid #4988ff; }
 
 header .hTop {
-  background: url(../img/bgTop.jpg) no-repeat center;
+  background: url(../img/blue_flat_wallpaper_by_matthewboyz-d96py4o.png) no-repeat center;
   background-size: cover;
   height: 720px;
   width: 100%; }
 
 main {
-  background: #2E112D;
+  background: #0A1729;
   height: 1800px; }
+  main .artiHeader {
+    font-size: 40px;
+    text-align: center;
+    color: #76bae5;
+    border-bottom: 3px solid #76bae5;
+    width: 50%;
+    margin: 50px auto; }
+  main .wrapper {
+    width: 1100px;
+    height: 100%;
+    padding-top: 200px;
+    margin: auto; }
   main .infoCont {
-    height: 500px; }
+    height: 600px;
+    margin-bottom: 150px; }
     main .infoCont .meCont {
       height: 400px;
       width: 300px;
       border-radius: 10px;
       border-bottom-left-radius: 40px;
-      background: #540030;
-      padding: 5px;
-      margin: auto; }
-      main .infoCont .meCont .cardTop {
-        height: 40%;
+      background: #0C63AE;
+      padding: 5px; }
+      main .infoCont .meCont .meBG {
+        background: url(../img/bgavata4.jpg) no-repeat;
+        background-size: contain;
         width: 100%;
-        background: url(../img/bgAvatar.jpg) no-repeat;
-        background-size: cover;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        position: relative; }
-        main .infoCont .meCont .cardTop .avatar {
-          height: 120px;
-          width: 120px;
-          background: red;
-          border-radius: 50%;
-          position: absolute;
-          bottom: -50px;
-          left: 20px;
-          border: 2px solid #820434; }
-      main .infoCont .meCont .cardBot {
-        background: #820434;
-        height: 60%;
-        width: 100%;
-        border-bottom-left-radius: 40px;
-        border-bottom-right-radius: 10px;
-        border-top-left-radius: 80%;
-        border-top: 3px solid #FF6C40;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box; }
+        height: 100%;
+        border-radius: 10px;
+        border-bottom-left-radius: 40px; }
+        main .infoCont .meCont .meBG .meBot {
+          background: #1c79c8;
+          height: 60%;
+          width: 100%;
+          border-bottom-right-radius: 10px;
+          border-bottom-left-radius: 40px;
+          border-top-right-radius: 80%;
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          padding-top: 70px; }
+          main .infoCont .meCont .meBG .meBot h2 {
+            margin: 0px;
+            padding-left: 12px;
+            color: #0A1729; }
+        main .infoCont .meCont .meBG .meTop {
+          height: 40%;
+          width: 100%;
+          position: relative;
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box; }
+          main .infoCont .meCont .meBG .meTop .meAvatar {
+            position: absolute;
+            height: 150px;
+            width: 150px;
+            background: #4988ff;
+            border-radius: 50%;
+            bottom: -70px;
+            left: 5px;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+            border: 2px solid #0C63AE; }
+          main .infoCont .meCont .meBG .meTop .meBtn1, main .infoCont .meCont .meBG .meTop .meBtn2 {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            position: absolute;
+            background: #4988ff;
+            right: 25px;
+            bottom: -100px;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+            padding: 10px;
+            border: 2px solid #0C63AE; }
+            main .infoCont .meCont .meBG .meTop .meBtn1:hover, main .infoCont .meCont .meBG .meTop .meBtn2:hover {
+              cursor: pointer;
+              background: #5892ff; }
+            main .infoCont .meCont .meBG .meTop .meBtn1:hover .fas, main .infoCont .meCont .meBG .meTop .meBtn2:hover .fas {
+              color: #193a67; }
+            main .infoCont .meCont .meBG .meTop .meBtn1 .fa-envelope, main .infoCont .meCont .meBG .meTop .meBtn2 .fa-envelope {
+              font-size: 25px;
+              color: #0C63AE; }
+          main .infoCont .meCont .meBG .meTop .meBtn2 {
+            right: 80px;
+            bottom: -60px;
+            padding: 9px; }
+            main .infoCont .meCont .meBG .meTop .meBtn2 .fa-user-plus {
+              font-size: 25px;
+              color: #0C63AE; }
   main .rotCont {
-    height: 400px;
-    width: 120%;
-    margin-left: -50px; }
-    main .rotCont .rotBg {
-      background: #fff;
+    height: 600px;
+    position: relative; }
+    main .rotCont .rBGCont .rotateBG {
       height: 400px;
-      width: 120%;
-      margin-left: -50px;
-      -webkit-transform: rotate(-5deg);
-          -ms-transform: rotate(-5deg);
-              transform: rotate(-5deg);
-      -webkit-box-shadow: 0 0 30px #FF6C40;
-              box-shadow: 0 0 30px #FF6C40; }
+      background: white;
+      width: 220vw;
+      -webkit-transform: rotate(-3deg) translate(-50%);
+          -ms-transform: rotate(-3deg) translate(-50%);
+              transform: rotate(-3deg) translate(-50%);
+      -webkit-box-shadow: 0 0 25px #3091E4;
+              box-shadow: 0 0 25px #3091E4;
+      position: absolute;
+      top: 0px;
+      z-index: 1; }
+    main .rotCont .cardsCont {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: auto;
+      top: 160px;
+      left: 120px;
+      position: absolute;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      z-index: 2; }
+      main .rotCont .cardsCont .singleCard {
+        width: 30%;
+        height: 200px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0 0 15px #3091E4;
+                box-shadow: 0 0 15px #3091E4; }
+        main .rotCont .cardsCont .singleCard .cardTop {
+          height: 40%;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          background: rgba(12, 99, 174, 0.2);
+          text-align: center; }
+          main .rotCont .cardsCont .singleCard .cardTop .fas {
+            font-size: 60px;
+            padding-top: 10px;
+            color: #3091E4; }
+        main .rotCont .cardsCont .singleCard .cardBot {
+          height: 60%;
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          border-top: 2px solid #3091E4;
+          background: #0c63ae;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          padding: 5px; }
+          main .rotCont .cardsCont .singleCard .cardBot .infoBot {
+            color: #0A1729;
+            text-align: center; }
+            main .rotCont .cardsCont .singleCard .cardBot .infoBot h3 {
+              margin: 5px 0px 0px;
+              padding-top: 5px;
+              color: #76bae5;
+              border-top: 1px solid #3091E4; }
+              main .rotCont .cardsCont .singleCard .cardBot .infoBot h3 .strongH {
+                color: white; }
+            main .rotCont .cardsCont .singleCard .cardBot .infoBot h3:first-child {
+              border-top: none;
+              margin-top: 10px; }
