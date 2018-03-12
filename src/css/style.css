@@ -87,7 +87,7 @@ header nav .navOpt {
       border-bottom: 1px solid #4988ff; }
 
 header .hTop {
-  background: url(../img/blue_flat_wallpaper_by_matthewboyz-d96py4o.png) no-repeat center;
+  background: url(../img/hTopBg.jpg) no-repeat center;
   background-size: cover;
   height: 720px;
   width: 100%; }
@@ -104,12 +104,15 @@ main {
     margin: 50px auto; }
   main .wrapper {
     width: 1100px;
-    height: 100%;
     padding-top: 200px;
     margin: auto; }
   main .infoCont {
     height: 600px;
     margin-bottom: 150px; }
+    main .infoCont .stack {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
     main .infoCont .meCont {
       height: 400px;
       width: 300px;
@@ -138,6 +141,9 @@ main {
             margin: 0px;
             padding-left: 12px;
             color: #0A1729; }
+          main .infoCont .meCont .meBG .meBot ul {
+            padding-left: 30px;
+            color: #fff; }
         main .infoCont .meCont .meBG .meTop {
           height: 40%;
           width: 100%;
@@ -182,6 +188,60 @@ main {
             main .infoCont .meCont .meBG .meTop .meBtn2 .fa-user-plus {
               font-size: 25px;
               color: #0C63AE; }
+  main .moreInfoCont {
+    width: 750px;
+    height: 410px;
+    padding: 10px;
+    padding-left: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    main .moreInfoCont .first {
+      margin: 0px 50px 0px 10px; }
+    main .moreInfoCont .third {
+      margin-left: 50px; }
+    main .moreInfoCont .first .singleSkillCont {
+      margin-bottom: 125px; }
+    main .moreInfoCont .first .singleSkillCont:last-child {
+      margin-bottom: 0px; }
+    main .moreInfoCont .second .singleSkillCont {
+      margin-bottom: 40px; }
+    main .moreInfoCont .second .singleSkillCont:last-child {
+      margin-bottom: 0px; }
+    main .moreInfoCont .third .singleSkillCont:first-child {
+      margin: 85px 0px; }
+    main .moreInfoCont .third .singleSkillCont:last-child {
+      margin-top: 124px; }
+    main .moreInfoCont .singleSkillCont {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      main .moreInfoCont .singleSkillCont img {
+        width: 20%;
+        height: 20%; }
+      main .moreInfoCont .singleSkillCont .skill {
+        width: 80%; }
+        main .moreInfoCont .singleSkillCont .skill p {
+          color: #fff;
+          font-weight: 700;
+          height: 50%;
+          margin: 0px;
+          width: 90%;
+          text-align: center;
+          border-bottom: 1px solid #1A71BB; }
+        main .moreInfoCont .singleSkillCont .skill .exp {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          padding: 5px 0px 0px;
+          width: 90%;
+          text-align: center; }
+          main .moreInfoCont .singleSkillCont .skill .exp i {
+            font-size: 16px;
+            margin: auto;
+            color: #1A71BB; }
   main .rotCont {
     height: 600px;
     position: relative; }

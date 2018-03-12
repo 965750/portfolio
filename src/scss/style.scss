@@ -107,7 +107,7 @@ header {
         }
     }
     .hTop {
-        background: url(../img/blue_flat_wallpaper_by_matthewboyz-d96py4o.png) no-repeat center;
+        background: url(../img/hTopBg.jpg) no-repeat center;
         background-size: cover;
         height: 720px;
         width: 100%;
@@ -115,18 +115,17 @@ header {
 }
 
 main {
-    
-    .artiHeader{
-            font-size: 40px;
-            text-align: center;
-            color: $col2;
-            border-bottom: 3px solid $col2;
-            width: 50%;
-            margin: 50px auto;
-        }
+
+    .artiHeader {
+        font-size: 40px;
+        text-align: center;
+        color: $col2;
+        border-bottom: 3px solid $col2;
+        width: 50%;
+        margin: 50px auto;
+    }
     .wrapper {
         width: 1100px;
-        height: 100%;
         padding-top: 200px;
         margin: auto;
     }
@@ -135,6 +134,10 @@ main {
     .infoCont {
         height: 600px;
         margin-bottom: 150px;
+
+        .stack {
+            display: flex;
+        }
         .meCont {
             height: 400px;
             width: 300px;
@@ -142,14 +145,14 @@ main {
             border-bottom-left-radius: 40px;
             background: $col8;
             padding: 5px;
-            .meBG{
+            .meBG {
                 background: url(../img/bgavata4.jpg) no-repeat;
                 background-size: contain;
                 width: 100%;
                 height: 100%;
                 border-radius: 10px;
                 border-bottom-left-radius: 40px;
-                .meBot{
+                .meBot {
                     background: lighten($col7, 3%);
                     height: 60%;
                     width: 100%;
@@ -158,18 +161,22 @@ main {
                     border-top-right-radius: 80%;
                     box-sizing: border-box;
                     padding-top: 70px;
-                    h2{
+                    h2 {
                         margin: 0px;
                         padding-left: 12px;
                         color: $col5;
                     }
+                    ul {
+                        padding-left: 30px;
+                        color: #fff;
+                    }
                 }
-                .meTop{
+                .meTop {
                     height: 40%;
                     width: 100%;
                     position: relative;
                     box-sizing: border-box;
-                    .meAvatar{
+                    .meAvatar {
                         position: absolute;
                         height: 150px;
                         width: 150px;
@@ -180,7 +187,7 @@ main {
                         box-sizing: border-box;
                         border: 2px solid $col8;
                     }
-                    .meBtn1{
+                    .meBtn1 {
                         height: 50px;
                         width: 50px;
                         border-radius: 50%;
@@ -191,24 +198,24 @@ main {
                         box-sizing: border-box;
                         padding: 10px;
                         border: 2px solid $col8;
-                        &:hover{
+                        &:hover {
                             cursor: pointer;
                             background: lighten($col4, 3%)
                         }
-                        &:hover .fas{
+                        &:hover .fas {
                             color: lighten($col5, 15%);
                         }
-                        .fa-envelope{
+                        .fa-envelope {
                             font-size: 25px;
                             color: $col8;
                         }
                     }
-                    .meBtn2{
+                    .meBtn2 {
                         @extend .meBtn1;
                         right: 80px;
                         bottom: -60px;
                         padding: 9px;
-                        .fa-user-plus{
+                        .fa-user-plus {
                             font-size: 25px;
                             color: $col8;
                         }
@@ -217,12 +224,76 @@ main {
             }
         }
     }
-    .moreInfoCont {}
+    .moreInfoCont {
+        
+        width: 750px;
+        height: 410px;
+        padding: 10px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        display: flex;
+        .first {
+            margin: 0px 50px 0px 10px;
+        }
+        .second {}
+        .third{
+            margin-left: 50px;
+        }
+        .first .singleSkillCont {
+            margin-bottom: 125px;
+        }
+        .first .singleSkillCont:last-child {
+            margin-bottom: 0px;
+        }
+        .second .singleSkillCont {
+            margin-bottom: 40px;
+        }
+        .second .singleSkillCont:last-child {
+            margin-bottom: 0px;
+        }
+        .third .singleSkillCont:first-child {
+            margin: 85px 0px;
+        }
+        .third .singleSkillCont:last-child {
+            margin-top: 124px;
+        }
+        .singleSkillCont {
+            display: flex;
+            img {
+                width: 20%;
+                height: 20%;
+            }
+            .skill {
+                width: 80%;
+                p {
+                    color: #fff;
+                    font-weight: 700;
+                    height: 50%;
+                    margin: 0px;
+                    width: 90%;
+                    text-align: center;
+                    border-bottom: 1px solid $col7;
+                }
+                .exp {
+                    display: flex;
+                    padding: 5px 0px 0px;
+                    width: 90%;
+                    text-align: center;
+                    i {
+                        font-size: 16px;
+                        margin: auto;
+                        color: $col7;
+                    }
+
+                }
+            }
+        }
+    }
     .rotCont {
         height: 600px;
         position: relative;
-        .rBGCont{
-            .rotateBG{
+        .rBGCont {
+            .rotateBG {
                 height: 400px;
                 background: white;
                 width: 220vw;
@@ -269,17 +340,17 @@ main {
                     .infoBot {
                         color: $col5;
                         text-align: center;
-                        h3{
+                        h3 {
                             margin: 5px 0px 0px;
                             padding-top: 5px;
                             color: $col2;
                             border-top: 1px solid $col6;
-                            .strongH{
+                            .strongH {
                                 color: white;
                             }
                         }
-                        h3:first-child{
-                            border-top:none;
+                        h3:first-child {
+                            border-top: none;
                             margin-top: 10px;
                         }
                     }
