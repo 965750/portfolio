@@ -1,0 +1,152 @@
+@import 'variables';
+@import 'mixins';
+
+@mixin singleBtn($cols){
+        .barContLeft {
+            background: $cols;
+            &:hover {
+                background: lighten($cols, 5%);
+            }
+        }
+        .leftPanelCont{
+            background: $cols;
+            box-shadow: inset -5px 0px 8px darken($cols, 7%);
+        }
+}
+
+.template{
+    background: $col1;
+    height: 100px;
+    width: 150px;
+    float: right;
+    span{
+        font-size: 27px;
+    }
+}
+
+.barContAll {
+    z-index: 10;
+    width: 150px;
+    height: 250px;
+    position: fixed;
+    top: 10%;
+    left: 0px;
+    transition: all .3s;
+    .singleBtnCont {
+        width: 150px;
+        display: flex;
+        position: absolute;
+        transition: all .2s;
+        .leftPanelCont{
+            width: 20%;
+            height: 100vh;
+            position: fixed;  
+            top: 0px;
+            left: -20%;
+            transition: all .3s;
+        }
+        .leftPanelActive{
+            left: 0%;
+        }
+        .barContLeft {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 54px;
+            transition: all .1s;
+            .iconFA {
+                color: white;
+                font-size: 20px;
+            }
+            &:hover {
+                cursor: pointer;
+                width: 60px;
+            }
+            .ys{
+                padding-right: 3px;
+            }
+        }
+        .barContRight {
+            background: #4c4c4c;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+            span {
+                color: #fff;
+                font-size: 14px;
+            }
+        }
+    }
+    .menu {
+        top: 0px;
+        .barContLeft {
+            background: $col1;
+            &:hover {
+                background: lighten($col1, 5%);
+            }
+        }
+        .leftPanelCont{
+            background: $col1;
+            box-shadow: inset -5px 0px 8px darken($col1, 7%);
+        }
+    }
+    .fav {
+        top: 50px;
+        .barContLeft {
+            background: $col2;
+            &:hover {
+                background: lighten($col2, 5%);
+            }
+        }
+        .leftPanelCont{
+            background: $col2;
+            box-shadow: inset -5px 0px 8px darken($col2, 7%);
+        }
+    }
+    .subs {
+        top: 100px;
+        .barContLeft {
+            background: $col3;
+            &:hover {
+                background: lighten($col3, 5%);
+            }
+        }
+        .leftPanelCont{
+            background: $col3;
+            box-shadow: inset -5px 0px 8px darken($col3, 7%);
+        }
+    }
+    .insta {
+        top: 150px;
+        .barContLeft {
+            background: $col4;
+            &:hover {
+                background: lighten($col4, 5%);
+            }
+        }
+        .leftPanelCont{
+            background: $col4;
+            box-shadow: inset -5px 0px 8px darken($col4, 7%);
+        }
+    }
+    .vid {
+        top: 200px;
+        .barContLeft {
+            background: $col5;
+            &:hover {
+                background: lighten($col5, 5%);
+            }
+        }
+        .leftPanelCont{
+            background: $col5;
+            box-shadow: inset -5px 0px 8px darken($col5, 7%);
+        }
+    }
+}
+.barContAllActive {
+	left: 20%;
+}
+

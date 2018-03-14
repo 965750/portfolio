@@ -1,0 +1,12 @@
+@mixin singleBtn($cols){
+        .barContLeft {
+            background: $cols;
+            &:hover {
+                background: lighten($cols, 5%);
+            }
+        }
+        .leftPanelCont{
+            background: $cols;
+            box-shadow: inset -5px 0px 8px darken($cols, 7%);
+        }
+}

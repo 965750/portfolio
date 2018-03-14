@@ -1,19 +1,5 @@
-$p1: #2e112d;
-$p2: #540030;
-$p3: #4A0D32;
-$p4: #820434;
-$p5: #FF6C40;
-
-$col9: #284b9a;
-$col8: #0C63AE;
-$col7: #1A71BB;
-$col6: #3091E4;
-$col5: #0A1729;
-$col4: #4988ff;
-$col3: #7ea2e6;
-$col2: #76bae5;
-$col1: #5353f7;
-
+@import 'mixins';
+@import 'variables';
 
 body {
     margin: 0px;
@@ -153,6 +139,7 @@ main {
             display: flex;
             width: 87%;
             margin: auto;
+            justify-content: space-between;
             .banerBotBg{
                 height: 70%;
                 width: 87%;
@@ -165,7 +152,6 @@ main {
             }
             .signleCircleCont{
                 width: 30%;
-                margin: auto;
                 height: 100%;
                 padding-top: 5px;
                 .circleCont{
@@ -181,7 +167,7 @@ main {
                         position: absolute;
                         left: 50%;
                         transform: translate(-50%);
-                        bottom: 5px;
+                        bottom: 6px;
                         color: $col9;
                     }
                     .numberAbove{
@@ -209,6 +195,7 @@ main {
                     text-align: center;
                     color: $col5;
                     font-size: 14px;
+                    padding-top: 4px;
                     span{
                         
                     }
@@ -341,7 +328,7 @@ main {
             margin-left: 50px;
         }
         .first .singleSkillCont {
-            margin-bottom: 125px;
+            margin-bottom: 68px;
         }
         .first .singleSkillCont:last-child {
             margin-bottom: 0px;

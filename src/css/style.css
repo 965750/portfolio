@@ -131,7 +131,10 @@ main {
       display: -ms-flexbox;
       display: flex;
       width: 87%;
-      margin: auto; }
+      margin: auto;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
       main .banerCont .banerBot .banerBotBg {
         height: 70%;
         width: 87%;
@@ -143,7 +146,6 @@ main {
         border-bottom-right-radius: 15px; }
       main .banerCont .banerBot .signleCircleCont {
         width: 30%;
-        margin: auto;
         height: 100%;
         padding-top: 5px; }
         main .banerCont .banerBot .signleCircleCont .circleCont {
@@ -161,7 +163,7 @@ main {
             -webkit-transform: translate(-50%);
                 -ms-transform: translate(-50%);
                     transform: translate(-50%);
-            bottom: 5px;
+            bottom: 6px;
             color: #284b9a; }
           main .banerCont .banerBot .signleCircleCont .circleCont .numberAbove {
             width: 100%;
@@ -187,7 +189,8 @@ main {
         main .banerCont .banerBot .signleCircleCont .underCircle {
           text-align: center;
           color: #0A1729;
-          font-size: 14px; }
+          font-size: 14px;
+          padding-top: 4px; }
   main .artiHeader {
     font-size: 40px;
     text-align: center;
@@ -296,7 +299,7 @@ main {
     main .moreInfoCont .third {
       margin-left: 50px; }
     main .moreInfoCont .first .singleSkillCont {
-      margin-bottom: 125px; }
+      margin-bottom: 68px; }
     main .moreInfoCont .first .singleSkillCont:last-child {
       margin-bottom: 0px; }
     main .moreInfoCont .second .singleSkillCont {

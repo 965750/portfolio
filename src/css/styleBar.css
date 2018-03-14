@@ -1,0 +1,118 @@
+.template {
+  background: #5353f7;
+  height: 100px;
+  width: 150px;
+  float: right; }
+  .template span {
+    font-size: 27px; }
+
+.barContAll {
+  z-index: 10;
+  width: 150px;
+  height: 250px;
+  position: fixed;
+  top: 10%;
+  left: 0px;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s; }
+  .barContAll .singleBtnCont {
+    width: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s; }
+    .barContAll .singleBtnCont .leftPanelCont {
+      width: 20%;
+      height: 100vh;
+      position: fixed;
+      top: 0px;
+      left: -20%;
+      -webkit-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s; }
+    .barContAll .singleBtnCont .leftPanelActive {
+      left: 0%; }
+    .barContAll .singleBtnCont .barContLeft {
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      line-height: 54px;
+      -webkit-transition: all .1s;
+      -o-transition: all .1s;
+      transition: all .1s; }
+      .barContAll .singleBtnCont .barContLeft .iconFA {
+        color: white;
+        font-size: 20px; }
+      .barContAll .singleBtnCont .barContLeft:hover {
+        cursor: pointer;
+        width: 60px; }
+      .barContAll .singleBtnCont .barContLeft .ys {
+        padding-right: 3px; }
+    .barContAll .singleBtnCont .barContRight {
+      background: #4c4c4c;
+      width: 100px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px; }
+      .barContAll .singleBtnCont .barContRight span {
+        color: #fff;
+        font-size: 14px; }
+  .barContAll .menu {
+    top: 0px; }
+    .barContAll .menu .barContLeft {
+      background: #5353f7; }
+      .barContAll .menu .barContLeft:hover {
+        background: #6b6bf8; }
+    .barContAll .menu .leftPanelCont {
+      background: #5353f7;
+      -webkit-box-shadow: inset -5px 0px 8px #3131f5;
+              box-shadow: inset -5px 0px 8px #3131f5; }
+  .barContAll .fav {
+    top: 50px; }
+    .barContAll .fav .barContLeft {
+      background: #76bae5; }
+      .barContAll .fav .barContLeft:hover {
+        background: #8bc5e9; }
+    .barContAll .fav .leftPanelCont {
+      background: #76bae5;
+      -webkit-box-shadow: inset -5px 0px 8px #58abdf;
+              box-shadow: inset -5px 0px 8px #58abdf; }
+  .barContAll .subs {
+    top: 100px; }
+    .barContAll .subs .barContLeft {
+      background: #7ea2e6; }
+      .barContAll .subs .barContLeft:hover {
+        background: #93b1ea; }
+    .barContAll .subs .leftPanelCont {
+      background: #7ea2e6;
+      -webkit-box-shadow: inset -5px 0px 8px #608ce0;
+              box-shadow: inset -5px 0px 8px #608ce0; }
+  .barContAll .insta {
+    top: 150px; }
+    .barContAll .insta .barContLeft {
+      background: #4988ff; }
+      .barContAll .insta .barContLeft:hover {
+        background: #6399ff; }
+    .barContAll .insta .leftPanelCont {
+      background: #4988ff;
+      -webkit-box-shadow: inset -5px 0px 8px #2571ff;
+              box-shadow: inset -5px 0px 8px #2571ff; }
+  .barContAll .vid {
+    top: 200px; }
+    .barContAll .vid .barContLeft {
+      background: #0A1729; }
+      .barContAll .vid .barContLeft:hover {
+        background: #0f233e; }
+    .barContAll .vid .leftPanelCont {
+      background: #0A1729;
+      -webkit-box-shadow: inset -5px 0px 8px #03070c;
+              box-shadow: inset -5px 0px 8px #03070c; }
+
+.barContAllActive {
+  left: 20%; }
