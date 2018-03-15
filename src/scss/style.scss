@@ -9,90 +9,6 @@ body {
 }
 
 header {
-
-    nav {
-
-        .triangleCont {
-            height: 300px;
-            width: 300px;
-            position: fixed;
-            top: -200px;
-            right: -200px;
-            z-index: 3;
-            .btnNav {
-                height: 50px;
-                width: 50px;
-                background: $col4;
-                border-radius: 50%;
-                position: absolute;
-                left: 40px;
-                bottom: 40px;
-                z-index: 2;
-                border: none;
-                padding: 9px 8px 0px 11px;
-                box-sizing: border-box;
-                transition: all .1s;
-                &:hover {
-                    cursor: pointer;
-                    background: darken($col4, 5%);
-                }
-                &:hover #hamI {
-                    color: $col3;
-                }
-                #hamI {
-                    color: $col1;
-                    font-size: 32px;
-                    transition: all .1s;
-                }
-            }
-            .triangleBg {
-                transform: rotate(45deg);
-                background: $col3;
-                height: 300px;
-                width: 300px;
-                z-index: 1;
-                transition: all .0s;
-            }
-        }
-        .navOpt {
-            color: white;
-            position: fixed;
-            right: -200px;
-            top: 0px;
-            width: 200px;
-            z-index: 2;
-            height: 100vh;
-            background: $col7;
-            border-left: 1px solid $col4;
-            box-sizing: border-box;
-            ul {
-                list-style: none;
-                margin: 0px;
-                padding: 0px;
-                li {
-                    text-transform: uppercase;
-                    height: 50px;
-                    margin: 0px;
-                    padding: 0px;
-                    text-align: center;
-                    background: $col3;
-                    line-height: 50px;
-                    border-top: 1px solid $col4;
-                    transition: all .1s;
-                    &:hover {
-                        cursor: pointer;
-                        background: darken($col3, 5%)
-                    }
-                }
-                li:first-child {
-                    margin-top: 150px;
-                }
-                li:last-child {
-                    border-bottom: 1px solid $col4;
-                }
-            }
-        }
-    }
     .hTop {
         background: url(../img/hTopBg.jpg) no-repeat center;
         background-size: cover;
@@ -193,7 +109,7 @@ main {
                 }
                 .underCircle{
                     text-align: center;
-                    color: $col5;
+                    color: $col7;
                     font-size: 14px;
                     padding-top: 4px;
                     span{

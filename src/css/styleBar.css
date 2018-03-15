@@ -11,7 +11,7 @@
   width: 150px;
   height: 250px;
   position: fixed;
-  top: 10%;
+  top: 7%;
   left: 0px;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
@@ -26,11 +26,11 @@
     -o-transition: all .2s;
     transition: all .2s; }
     .barContAll .singleBtnCont .leftPanelCont {
-      width: 20%;
+      width: 270px;
       height: 100vh;
       position: fixed;
       top: 0px;
-      left: -20%;
+      left: -270px;
       -webkit-transition: all .3s;
       -o-transition: all .3s;
       transition: all .3s; }
@@ -66,53 +66,168 @@
   .barContAll .menu {
     top: 0px; }
     .barContAll .menu .barContLeft {
-      background: #5353f7; }
+      background: #1565c0; }
       .barContAll .menu .barContLeft:hover {
-        background: #6b6bf8; }
+        background: #1871d7; }
     .barContAll .menu .leftPanelCont {
-      background: #5353f7;
-      -webkit-box-shadow: inset -5px 0px 8px #3131f5;
-              box-shadow: inset -5px 0px 8px #3131f5; }
+      background: #1565c0;
+      -webkit-box-shadow: inset -5px 0px 8px #1154a0;
+              box-shadow: inset -5px 0px 8px #1154a0;
+      padding-top: 100px; }
+      .barContAll .menu .leftPanelCont nav ul {
+        margin: 0px;
+        padding: 0px; }
+        .barContAll .menu .leftPanelCont nav ul li {
+          list-style: none;
+          height: 60px;
+          border-top: 1px solid #76bae5;
+          font-size: 20px;
+          text-align: center;
+          line-height: 60px;
+          background: #3091E4;
+          -webkit-transition: all .1s;
+          -o-transition: all .1s;
+          transition: all .1s; }
+          .barContAll .menu .leftPanelCont nav ul li span {
+            color: #fff;
+            font-weight: 700; }
+          .barContAll .menu .leftPanelCont nav ul li:hover {
+            background: #1d85de;
+            cursor: pointer; }
+        .barContAll .menu .leftPanelCont nav ul li:last-child {
+          border-bottom: 1px solid #76bae5; }
   .barContAll .fav {
     top: 50px; }
     .barContAll .fav .barContLeft {
-      background: #76bae5; }
+      background: #1e88e5; }
       .barContAll .fav .barContLeft:hover {
-        background: #8bc5e9; }
+        background: #3594e8; }
     .barContAll .fav .leftPanelCont {
-      background: #76bae5;
-      -webkit-box-shadow: inset -5px 0px 8px #58abdf;
-              box-shadow: inset -5px 0px 8px #58abdf; }
+      background: #1e88e5;
+      -webkit-box-shadow: inset -5px 0px 8px #1775c8;
+              box-shadow: inset -5px 0px 8px #1775c8;
+      padding-top: 100px; }
+      .barContAll .fav .leftPanelCont nav ul {
+        margin: 0px;
+        padding: 0px; }
+        .barContAll .fav .leftPanelCont nav ul li {
+          list-style: none;
+          height: 60px;
+          border-top: 1px solid #76bae5;
+          font-size: 20px;
+          text-align: center;
+          line-height: 60px;
+          background: #3091E4;
+          -webkit-transition: all .1s;
+          -o-transition: all .1s;
+          transition: all .1s; }
+          .barContAll .fav .leftPanelCont nav ul li span {
+            color: #fff;
+            font-weight: 700; }
+          .barContAll .fav .leftPanelCont nav ul li:hover {
+            background: #1d85de;
+            cursor: pointer; }
+        .barContAll .fav .leftPanelCont nav ul li:last-child {
+          border-bottom: 1px solid #76bae5; }
   .barContAll .subs {
     top: 100px; }
     .barContAll .subs .barContLeft {
-      background: #7ea2e6; }
+      background: #42a5f5; }
       .barContAll .subs .barContLeft:hover {
-        background: #93b1ea; }
+        background: #5ab1f6; }
     .barContAll .subs .leftPanelCont {
-      background: #7ea2e6;
-      -webkit-box-shadow: inset -5px 0px 8px #608ce0;
-              box-shadow: inset -5px 0px 8px #608ce0; }
+      background: #42a5f5;
+      -webkit-box-shadow: inset -5px 0px 8px #2095f3;
+              box-shadow: inset -5px 0px 8px #2095f3;
+      padding-top: 100px; }
+      .barContAll .subs .leftPanelCont nav ul {
+        margin: 0px;
+        padding: 0px; }
+        .barContAll .subs .leftPanelCont nav ul li {
+          list-style: none;
+          height: 60px;
+          border-top: 1px solid #76bae5;
+          font-size: 20px;
+          text-align: center;
+          line-height: 60px;
+          background: #3091E4;
+          -webkit-transition: all .1s;
+          -o-transition: all .1s;
+          transition: all .1s; }
+          .barContAll .subs .leftPanelCont nav ul li span {
+            color: #fff;
+            font-weight: 700; }
+          .barContAll .subs .leftPanelCont nav ul li:hover {
+            background: #1d85de;
+            cursor: pointer; }
+        .barContAll .subs .leftPanelCont nav ul li:last-child {
+          border-bottom: 1px solid #76bae5; }
   .barContAll .insta {
     top: 150px; }
     .barContAll .insta .barContLeft {
-      background: #4988ff; }
+      background: #64b5f6; }
       .barContAll .insta .barContLeft:hover {
-        background: #6399ff; }
+        background: #7cc1f7; }
     .barContAll .insta .leftPanelCont {
-      background: #4988ff;
-      -webkit-box-shadow: inset -5px 0px 8px #2571ff;
-              box-shadow: inset -5px 0px 8px #2571ff; }
+      background: #64b5f6;
+      -webkit-box-shadow: inset -5px 0px 8px #42a5f4;
+              box-shadow: inset -5px 0px 8px #42a5f4;
+      padding-top: 100px; }
+      .barContAll .insta .leftPanelCont nav ul {
+        margin: 0px;
+        padding: 0px; }
+        .barContAll .insta .leftPanelCont nav ul li {
+          list-style: none;
+          height: 60px;
+          border-top: 1px solid #76bae5;
+          font-size: 20px;
+          text-align: center;
+          line-height: 60px;
+          background: #3091E4;
+          -webkit-transition: all .1s;
+          -o-transition: all .1s;
+          transition: all .1s; }
+          .barContAll .insta .leftPanelCont nav ul li span {
+            color: #fff;
+            font-weight: 700; }
+          .barContAll .insta .leftPanelCont nav ul li:hover {
+            background: #1d85de;
+            cursor: pointer; }
+        .barContAll .insta .leftPanelCont nav ul li:last-child {
+          border-bottom: 1px solid #76bae5; }
   .barContAll .vid {
     top: 200px; }
     .barContAll .vid .barContLeft {
-      background: #0A1729; }
+      background: #5071B8; }
       .barContAll .vid .barContLeft:hover {
-        background: #0f233e; }
+        background: #6280bf; }
     .barContAll .vid .leftPanelCont {
-      background: #0A1729;
-      -webkit-box-shadow: inset -5px 0px 8px #03070c;
-              box-shadow: inset -5px 0px 8px #03070c; }
+      background: #5071B8;
+      -webkit-box-shadow: inset -5px 0px 8px #4261a2;
+              box-shadow: inset -5px 0px 8px #4261a2;
+      padding-top: 100px; }
+      .barContAll .vid .leftPanelCont nav ul {
+        margin: 0px;
+        padding: 0px; }
+        .barContAll .vid .leftPanelCont nav ul li {
+          list-style: none;
+          height: 60px;
+          border-top: 1px solid #76bae5;
+          font-size: 20px;
+          text-align: center;
+          line-height: 60px;
+          background: #3091E4;
+          -webkit-transition: all .1s;
+          -o-transition: all .1s;
+          transition: all .1s; }
+          .barContAll .vid .leftPanelCont nav ul li span {
+            color: #fff;
+            font-weight: 700; }
+          .barContAll .vid .leftPanelCont nav ul li:hover {
+            background: #1d85de;
+            cursor: pointer; }
+        .barContAll .vid .leftPanelCont nav ul li:last-child {
+          border-bottom: 1px solid #76bae5; }
 
 .barContAllActive {
-  left: 20%; }
+  left: 270px; }

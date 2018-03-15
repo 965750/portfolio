@@ -4,88 +4,6 @@ body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif; }
 
-header nav .triangleCont {
-  height: 300px;
-  width: 300px;
-  position: fixed;
-  top: -200px;
-  right: -200px;
-  z-index: 3; }
-  header nav .triangleCont .btnNav {
-    height: 50px;
-    width: 50px;
-    background: #4988ff;
-    border-radius: 50%;
-    position: absolute;
-    left: 40px;
-    bottom: 40px;
-    z-index: 2;
-    border: none;
-    padding: 9px 8px 0px 11px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    -webkit-transition: all .1s;
-    -o-transition: all .1s;
-    transition: all .1s; }
-    header nav .triangleCont .btnNav:hover {
-      cursor: pointer;
-      background: #3077ff; }
-    header nav .triangleCont .btnNav:hover #hamI {
-      color: #7ea2e6; }
-    header nav .triangleCont .btnNav #hamI {
-      color: #5353f7;
-      font-size: 32px;
-      -webkit-transition: all .1s;
-      -o-transition: all .1s;
-      transition: all .1s; }
-  header nav .triangleCont .triangleBg {
-    -webkit-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
-    background: #7ea2e6;
-    height: 300px;
-    width: 300px;
-    z-index: 1;
-    -webkit-transition: all .0s;
-    -o-transition: all .0s;
-    transition: all .0s; }
-
-header nav .navOpt {
-  color: white;
-  position: fixed;
-  right: -200px;
-  top: 0px;
-  width: 200px;
-  z-index: 2;
-  height: 100vh;
-  background: #1A71BB;
-  border-left: 1px solid #4988ff;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-  header nav .navOpt ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px; }
-    header nav .navOpt ul li {
-      text-transform: uppercase;
-      height: 50px;
-      margin: 0px;
-      padding: 0px;
-      text-align: center;
-      background: #7ea2e6;
-      line-height: 50px;
-      border-top: 1px solid #4988ff;
-      -webkit-transition: all .1s;
-      -o-transition: all .1s;
-      transition: all .1s; }
-      header nav .navOpt ul li:hover {
-        cursor: pointer;
-        background: #6993e2; }
-    header nav .navOpt ul li:first-child {
-      margin-top: 150px; }
-    header nav .navOpt ul li:last-child {
-      border-bottom: 1px solid #4988ff; }
-
 header .hTop {
   background: url(../img/hTopBg.jpg) no-repeat center;
   background-size: cover;
@@ -188,7 +106,7 @@ main {
               width: 66%; }
         main .banerCont .banerBot .signleCircleCont .underCircle {
           text-align: center;
-          color: #0A1729;
+          color: #1A71BB;
           font-size: 14px;
           padding-top: 4px; }
   main .artiHeader {
