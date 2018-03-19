@@ -9,7 +9,7 @@
 .barContAll {
   z-index: 10;
   width: 150px;
-  height: 250px;
+  height: 200px;
   position: fixed;
   top: 7%;
   left: 0px;
@@ -73,9 +73,30 @@
       background: #1565c0;
       -webkit-box-shadow: inset -5px 0px 8px #1154a0;
               box-shadow: inset -5px 0px 8px #1154a0;
-      padding-top: 100px; }
+      padding-top: 30px; }
+      .barContAll .menu .leftPanelCont p {
+        color: #0f4f84;
+        padding: 20px; }
+      .barContAll .menu .leftPanelCont .githubBtn {
+        width: 100%;
+        height: 60px;
+        background: #006cc7;
+        border-top: 1px solid #8bd2ff;
+        border-bottom: 1px solid #8bd2ff;
+        text-align: center;
+        line-height: 60px;
+        -webkit-transition: all .1s;
+        -o-transition: all .1s;
+        transition: all .1s; }
+        .barContAll .menu .leftPanelCont .githubBtn:hover {
+          cursor: pointer;
+          background: #0060b4; }
+        .barContAll .menu .leftPanelCont .githubBtn span {
+          color: white;
+          letter-spacing: .3px;
+          font-size: 20px; }
       .barContAll .menu .leftPanelCont nav ul {
-        margin: 0px;
+        margin: 100px 0px 0px;
         padding: 0px; }
         .barContAll .menu .leftPanelCont nav ul li {
           list-style: none;
@@ -106,9 +127,30 @@
       background: #1e88e5;
       -webkit-box-shadow: inset -5px 0px 8px #1775c8;
               box-shadow: inset -5px 0px 8px #1775c8;
-      padding-top: 100px; }
+      padding-top: 30px; }
+      .barContAll .fav .leftPanelCont p {
+        color: #0f4f84;
+        padding: 20px; }
+      .barContAll .fav .leftPanelCont .githubBtn {
+        width: 100%;
+        height: 60px;
+        background: #006cc7;
+        border-top: 1px solid #8bd2ff;
+        border-bottom: 1px solid #8bd2ff;
+        text-align: center;
+        line-height: 60px;
+        -webkit-transition: all .1s;
+        -o-transition: all .1s;
+        transition: all .1s; }
+        .barContAll .fav .leftPanelCont .githubBtn:hover {
+          cursor: pointer;
+          background: #0060b4; }
+        .barContAll .fav .leftPanelCont .githubBtn span {
+          color: white;
+          letter-spacing: .3px;
+          font-size: 20px; }
       .barContAll .fav .leftPanelCont nav ul {
-        margin: 0px;
+        margin: 100px 0px 0px;
         padding: 0px; }
         .barContAll .fav .leftPanelCont nav ul li {
           list-style: none;
@@ -139,9 +181,30 @@
       background: #42a5f5;
       -webkit-box-shadow: inset -5px 0px 8px #2095f3;
               box-shadow: inset -5px 0px 8px #2095f3;
-      padding-top: 100px; }
+      padding-top: 30px; }
+      .barContAll .subs .leftPanelCont p {
+        color: #0f4f84;
+        padding: 20px; }
+      .barContAll .subs .leftPanelCont .githubBtn {
+        width: 100%;
+        height: 60px;
+        background: #006cc7;
+        border-top: 1px solid #8bd2ff;
+        border-bottom: 1px solid #8bd2ff;
+        text-align: center;
+        line-height: 60px;
+        -webkit-transition: all .1s;
+        -o-transition: all .1s;
+        transition: all .1s; }
+        .barContAll .subs .leftPanelCont .githubBtn:hover {
+          cursor: pointer;
+          background: #0060b4; }
+        .barContAll .subs .leftPanelCont .githubBtn span {
+          color: white;
+          letter-spacing: .3px;
+          font-size: 20px; }
       .barContAll .subs .leftPanelCont nav ul {
-        margin: 0px;
+        margin: 100px 0px 0px;
         padding: 0px; }
         .barContAll .subs .leftPanelCont nav ul li {
           list-style: none;
@@ -172,9 +235,30 @@
       background: #64b5f6;
       -webkit-box-shadow: inset -5px 0px 8px #42a5f4;
               box-shadow: inset -5px 0px 8px #42a5f4;
-      padding-top: 100px; }
+      padding-top: 30px; }
+      .barContAll .insta .leftPanelCont p {
+        color: #0f4f84;
+        padding: 20px; }
+      .barContAll .insta .leftPanelCont .githubBtn {
+        width: 100%;
+        height: 60px;
+        background: #006cc7;
+        border-top: 1px solid #8bd2ff;
+        border-bottom: 1px solid #8bd2ff;
+        text-align: center;
+        line-height: 60px;
+        -webkit-transition: all .1s;
+        -o-transition: all .1s;
+        transition: all .1s; }
+        .barContAll .insta .leftPanelCont .githubBtn:hover {
+          cursor: pointer;
+          background: #0060b4; }
+        .barContAll .insta .leftPanelCont .githubBtn span {
+          color: white;
+          letter-spacing: .3px;
+          font-size: 20px; }
       .barContAll .insta .leftPanelCont nav ul {
-        margin: 0px;
+        margin: 100px 0px 0px;
         padding: 0px; }
         .barContAll .insta .leftPanelCont nav ul li {
           list-style: none;
@@ -205,9 +289,30 @@
       background: #5071B8;
       -webkit-box-shadow: inset -5px 0px 8px #4261a2;
               box-shadow: inset -5px 0px 8px #4261a2;
-      padding-top: 100px; }
+      padding-top: 30px; }
+      .barContAll .vid .leftPanelCont p {
+        color: #0f4f84;
+        padding: 20px; }
+      .barContAll .vid .leftPanelCont .githubBtn {
+        width: 100%;
+        height: 60px;
+        background: #006cc7;
+        border-top: 1px solid #8bd2ff;
+        border-bottom: 1px solid #8bd2ff;
+        text-align: center;
+        line-height: 60px;
+        -webkit-transition: all .1s;
+        -o-transition: all .1s;
+        transition: all .1s; }
+        .barContAll .vid .leftPanelCont .githubBtn:hover {
+          cursor: pointer;
+          background: #0060b4; }
+        .barContAll .vid .leftPanelCont .githubBtn span {
+          color: white;
+          letter-spacing: .3px;
+          font-size: 20px; }
       .barContAll .vid .leftPanelCont nav ul {
-        margin: 0px;
+        margin: 100px 0px 0px;
         padding: 0px; }
         .barContAll .vid .leftPanelCont nav ul li {
           list-style: none;
@@ -231,3 +336,8 @@
 
 .barContAllActive {
   left: 270px; }
+
+@media only screen and (max-width: 520px) {
+  .barContAll {
+    top: 200px;
+    opacity: 0.9; } }

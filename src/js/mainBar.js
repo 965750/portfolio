@@ -35,7 +35,7 @@ $(document).ready(function () {
                 });
             });
             $(".barContLeft").on("mouseleave", function () {
-                $(this).next().children.css({
+                $(this).next().children().css({
                     color: 'transparent'
                 });
             });

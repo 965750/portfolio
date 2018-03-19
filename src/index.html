@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Por</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
@@ -23,26 +24,25 @@
                 <!-- Fixed Baner -->
         <article class="barContAll">
         <div class="singleBtnCont menu">
-            <div class="leftPanelCont">
-                <img src="img/githubBig.png">    
+            <div class="leftPanelCont">  
                 <nav>
                     <ul>
-                        <li>
+                        <li id="home">
                             <span>Home</span>
                         </li>
-                        <li>
+                        <li id="about">
                             <span>About Me</span>
                         </li>
-                        <li>
+                        <li id="projects">
                             <span>Projects</span>
                         </li>
-                        <li>
+                        <li id="contact">
                             <span>Contact</span>
                         </li>
                     </ul>
                 </nav>
             </div>
-            <div class="barContLeft">  
+            <div class="barContLeft" id="menuBtn">  
                 <i class="fas fa-bars iconFA nc"></i>
             </div>
             <div class="barContRight iconFA">
@@ -52,6 +52,8 @@
         <div class="singleBtnCont fav">
             <div class="leftPanelCont">
                 <img src="img/githubBig.png">
+                <p>Some of my personal projects, most of them are just a simple repositories for testing.</p>
+                <div class="githubBtn"><span>Take me to GitHub!</span></div>
             </div>
             <div class="barContLeft">
                 <i class="fab fa-github iconFA nc"></i>
@@ -62,20 +64,32 @@
         </div>
         <div class="singleBtnCont subs">
             <div class="leftPanelCont">
-                <img src="img/facebookBig.png">
+                <img src="img/linkedInBig.png">
+                <p>If You want to know more details about me, or just add me to Your contact list, check my linkedIn profile.</p>
+                <div class="githubBtn"><span>Take me to LinkedIn!</span></div>
             </div>
             <div class="barContLeft">
-                <i class="fab fa-facebook iconFA nc"></i>
+                <i class="fab fa-linkedin iconFA nc"></i>
             </div>
             <div class="barContRight">
-                <span>Facebook</span>
+                <span>LinkedIn</span>
             </div>
         </div>
         <div class="singleBtnCont insta">
             <div class="leftPanelCont">
                 <img src="img/contactBig.png">
+                <form id="contactMe">
+                    <div class="alertCont"></div>
+                    <span>Name</span>
+                    <input id="name" type="text">
+                    <span>Email</span>
+                    <input id="email" type="email">
+                    <span>Message</span>
+                    <textarea id=textA></textarea>
+                    <input type="submit" id="contactSubmit" disabled value="SEND">
+                </form>
             </div>
-            <div class="barContLeft">
+            <div class="barContLeft" id="mailBtn">
                 <i class="fas fa-envelope iconFA nc"></i>
             </div>
             <div class="barContRight">
@@ -119,12 +133,14 @@
                 </div>
             </article>
             <article class="infoCont">
-                <h1 class="artiHeader">About Me</h1>
+                <h1 id="aboutCont" class="artiHeader">About Me</h1>
                 <article class="stack">
                 <section class="meCont">
                     <div class="meBG">
                         <div class="meTop">
-                            <div class="meAvatar"></div>
+                            <div class="meAvatar">
+                                <img src="img/meCent.jpg">
+                            </div>
                             <div class="meBtn1">
                                 <i class="fas fa-envelope"></i>
                             </div>
@@ -149,7 +165,7 @@
                     </div>
                 </section>
                 <section class="moreInfoCont">
-                    <div class="first">
+                    <div class="first skillSet">
                         <div class="singleSkillCont">
                             <img src="img/html.png">
                             <div class="skill">
@@ -203,7 +219,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="second">
+                    <div class="second skillSet">
                         <div class="singleSkillCont">
                             <img src="img/git.png">
                             <div class="skill">
@@ -270,7 +286,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="third">
+                    <div class="third skillSet">
                         <div class="singleSkillCont">
                             <img src="img/vue.png">
                             <div class="skill">
@@ -300,6 +316,9 @@
                     </div>
                 </section>
                 </article>
+                <section class="meTextCont">
+                    <span>Being a former graphic designer, I pay a lot of my attention to details during the implementation process. I always try to create great user experience, because for me it is one of the most important things. I aim for companies that I can learn from something new. Possibility of rising my skill everyday to get promotion and help company, is the best way to motivate myself.</span>
+                </section>
             </article>
             <article class="rotCont">
                 <section class="cardsCont">
@@ -341,8 +360,53 @@
                     <div class="rotateBG"></div>
                 </section>
             </article>
+            <article class="projects">
+                <h1 class="artiHeader">My Projects</h1>
+                <section class="cardsCont">
+                    <div class="singleCard">
+                        <div class="cardTop">
+                            <h3>Single Page Site</h3>
+                            <span>11.2017</span>
+                            <div class="imgCont">
+                                <i class="fas fa-search"></i>
+                                <img src="img/stomato+.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="singleCard">
+                        <div class="cardTop">
+                            <h3>Vue.js Shop</h3>
+                            <span>02.2018</span>
+                            <div class="imgCont">
+                                <i class="fas fa-search"></i>
+                                <img src="img/radam.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="singleCard">
+                        <div class="cardTop">
+                            <h3>Single Page Site</h3>
+                            <span>10.2017</span>
+                            <div class="imgCont">
+                                <i class="fas fa-search"></i>
+                                <img src="img/service.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
         </article>
     </main>
+    <footer>
+        <section class="fTop">
+            <i class="fab fa-linkedin footerI"></i>
+            <i class="fab fa-github footerI"></i>
+            <i class="fas fa-envelope footerI"></i>
+        </section>
+        <section class="fBot">
+            <span>Handmade by Adrian Zajac © 2018</span>
+        </section>
+    </footer>
     <script src="js/main.js"></script>
     <script src="js/mainBar.js"></script>
 </body>
