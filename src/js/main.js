@@ -1,4 +1,15 @@
 $(document).ready(function () {
+    
+    //spiner
+    $("#overlay").animate({
+        opacity: 0
+    }, 300);
+    
+    setTimeout(function(){ 
+    $("#overlay").css({
+        display: "none"
+    });
+    }, 300);
 
     let nav = 0;
     $(".btnNav").on("click", function () {
@@ -68,7 +79,7 @@ $(document).ready(function () {
             email = 1;
         }
     });
-    $("#textA").on("blur", function () {
+    $("#contactSubmit").on("click", function () {
 
         var msgVal = $("#textA").val().length;
         if (msgVal <= 3) {
@@ -101,8 +112,11 @@ $(document).ready(function () {
     });
     $("#contact").on("click", function () {
         $("#menuBtn").trigger("click");
-        setTimeout( function(){
-            $("#mailBtn").trigger("click");    
-        },400)
+        setTimeout(function () {
+            $("#mailBtn").trigger("click");
+        }, 400)
+    });
+    $("#fContact").on("click", function () {
+        $("#mailBtn").trigger("click");
     });
 });

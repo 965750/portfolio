@@ -12,6 +12,11 @@ $(document).ready(function () {
     //click
     $(".barContLeft").on("click", function () {
 
+        if ($(window).width() <= 768) {
+            $(".barContRight").css({
+                opacity: 0
+            });
+        }
         $(this).prev().toggleClass("leftPanelActive");
         $(".barContAll").toggleClass("barContAllActive");
         $(".barContLeft").not(this).fadeToggle(50);
@@ -29,7 +34,7 @@ $(document).ready(function () {
                 borderBottomRightRadius: "10px"
             });
 
-             $(".barContLeft").on("mouseenter", function () {
+            $(".barContLeft").on("mouseenter", function () {
                 $(this).next().children().css({
                     color: 'transparent'
                 });
@@ -39,24 +44,32 @@ $(document).ready(function () {
                     color: 'transparent'
                 });
             });
-            
+
             panel = 1;
 
             //panel OFF    
         } else {
             $(this).find(".ys").hide(0);
             $(this).find(".nc").fadeIn(0);
-            
-            $(".barContRight").css({
-                width: "100px",
-                opacity: 1
-            });
-            
+
+            if ($(window).width() <= 768) {
+                $(".barContRight").css({
+                    width: "100px",
+                    opacity: 0
+                });
+            } else {
+                $(".barContRight").css({
+                    width: "100px",
+                    opacity: 1
+                });
+            }
+
+
             $(this).css({
                 borderTopRightRadius: "0px",
                 borderBottomRightRadius: "0px"
             });
-            
+
             $(".barContLeft").on("mouseenter", function () {
                 $(this).next().children().css({
                     color: 'white'

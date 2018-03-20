@@ -154,6 +154,12 @@
 .barContAllActive {
 	left: 270px;
 }
+#contactMe .yes{
+    color: green;
+}
+#contactMe .no{
+    color: red;
+}
 @media only screen and (max-width: 520px){
     .barContAll{
         top: 200px;
