@@ -67,11 +67,13 @@
         <title>Adrian Zajac - Portfolio</title>
         <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">
-        <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/styleBar.css">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+
+
     </head>
 
     <body>
@@ -83,7 +85,7 @@
         </header>
         <div id="overlay">
             <div class="spinner"></div>
-        </div>  
+        </div>
         <main>
             <!-- Fixed Baner -->
             <article class="barContAll">
@@ -387,7 +389,7 @@
                         </section>
                     </article>
                     <section class="meTextCont">
-                        <span>As a former graphic designer, I pay a lot of my attention to details during the implementation process. I always try to create great user experience, because for me it is one of the most important things to plan. I aim for companies that I can learn from something new. Possibility of rising my skill everyday to get promotion and help company, is the best way to motivate myself.</span>
+                        <span>As a former graphic designer, I pay a lot of my attention to details during the implementation process. I always try to create great user experience, because for me it is one of the most important things to plan. I aim for companies that I can learn from more experienced people, something new. Possibility of rising my skill everyday to get promotion and help company, is the best way to motivate myself.</span>
                     </section>
                 </article>
                 <article class="rotCont">
@@ -433,7 +435,7 @@
                 <article class="projects">
                     <h1 class="artiHeader">My Projects</h1>
                     <section class="cardsCont">
-                        <div class="singleCard">
+                        <a href="http://adrianzajac.warszawa.pl/stomato/" class="singleCard">
                             <div class="cardTop">
                                 <h3>Single Page Site</h3>
                                 <span>11.2017</span>
@@ -442,8 +444,8 @@
                                     <img src="img/stomato+.jpg">
                                 </div>
                             </div>
-                        </div>
-                        <div class="singleCard">
+                        </a>
+                        <a href="http://adrianzajac.warszawa.pl/vue_shop_beta/" class="singleCard">
                             <div class="cardTop">
                                 <h3>Vue.js Shop</h3>
                                 <span>02.2018</span>
@@ -452,8 +454,8 @@
                                     <img src="img/radam.jpg">
                                 </div>
                             </div>
-                        </div>
-                        <div class="singleCard">
+                        </a>
+                        <a href="http://adrianzajac.warszawa.pl/agency/" class="singleCard">
                             <div class="cardTop">
                                 <h3>Single Page Site</h3>
                                 <span>10.2017</span>
@@ -462,7 +464,7 @@
                                     <img src="img/service.jpg">
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </section>
                 </article>
             </article>
